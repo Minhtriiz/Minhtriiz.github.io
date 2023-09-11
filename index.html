@@ -46,43 +46,7 @@
             <input type="text" id="keyword" placeholder="Nhập từ khóa tìm kiếm">
             <button id="search-button">Tìm kiếm</button>
           </div>
-          <div id="results"></div> -->
-        <!-- <div id="divAdvanceSettingIcon">
-            <div class="menu-bar-item-1"></div>
-            <div class="menu-bar-item-2"></div>
-            <div class="menu-bar-item-3"></div>
-        </div>
-        <div class="setting-box" id="boxFilterSearch">
-            <form id="frmFilterSearch" action="" method="">
-                <div class="setting-filter-search">
-                    <input type="text" id="txtKeywordSearch" value="" placeholder="Tìm kiếm theo Họ Tên, Email & Số điện thoại">
-                    
-                </div>
-                <div class="setting-filter-search">
-                    <div class="setting-gender">
-                        
-                        
-                    </div>
-                </div>
-                <div class="setting-filter-search">
-                    <button type="button" id="btnFilterSearch">
-                        Tìm kiếm<i class="fa fa-search" aria-hidden="true"></i>
-                    </button>
-                    <button type="button" id="btnDownloadFile">
-                        Tải xuống<i class="fa fa-download" aria-hidden="true"></i>
-                    </button>
-                </div>
-            </form>
-        </div> -->
-        <!-- <label for="search"></label> <input
-        type="text"
-        id="search"
-        placeholder="search"
-        oninput="searchUser()"
-        /> -->
-            <!-- <div class="search">
-                <input type="text" id="search" placeholder="nhập sách cần tìm">
-            </div> -->
+          
         
             
                 
@@ -93,47 +57,9 @@
 
     </div>
     <script src="https://cdn.jsdelivr.net/npm/lodash@4.17.21/lodash.min.js"></script>
-    <script src="./keyword.js"></script>
+    
     <script src="./js/thuvien.js"></script>
-    <script>
-        function createAlert(title, message) {
-          // Thiết lập thời gian hiển thị là 5 giây
-          let alertElement = document.createElement('div');
-          alertElement.classList.add('alert');
-          alertElement.style.backgroundColor = 'yellow';
-          alertElement.style.fontSize = '20px';
-        
-          // Thêm tiêu đề
-          let titleElement = document.createElement('h2');
-          titleElement.textContent = title;
-          alertElement.appendChild(titleElement);
-        
-          // Thêm thông báo
-          let messageElement = document.createElement('p');
-          messageElement.textContent = message;
-          alertElement.appendChild(messageElement);
-        
-          // Hiển thị alert
-          document.body.appendChild(alertElement);
-        
-          // Thêm hiệu ứng mờ dần cho alert
-          alertElement.addEventListener('animationend', () => {
-            alertElement.remove();
-          });
-        }
-        </script>
-
-    <!-- <script>
-
-        function searchUser() {
-            let valueSearchInput = document.getElementById("search").value;
-            let userSearch = renderListthongtinsach.filter(value => {
-                return value.thongtinsachid.thongtinsach.tensach.toUpperCase().includes(valueSearchInput.toUpperCase);
-            })
-            console.log(userSearch); 
-        }
-
-    </script> -->
+    
 
 </body>
 </html>
